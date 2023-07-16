@@ -3,6 +3,8 @@ This repository contains the implementation of Single-Cycle Execution Processor 
 
 #To Run the Verilog Code
 After changing to the CSE_BUBBLE directory that contains testbench.v,
+```bash
 iverilog -o testbench.vvp testbench.v
 vvp testbench.vvp
+```
 
